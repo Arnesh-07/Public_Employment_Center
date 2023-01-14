@@ -99,12 +99,12 @@ class Main {
                             case 2:
                                 System.out.println("Redirecting to UPI Payment Store......");
                                 int rs2=stmt2.executeUpdate("INSERT INTO salarydetail(Name,Salary) VALUES('"+name+"','"+sal+"')");
-                                System.out.println(sal+"Your salary amount "+sal+" is sent to your UPI Account");
+                                System.out.println("Your salary amount "+sal+" is sent to your UPI Account");
                                 break;
                             case 3:
                                 System.out.println("Redirecting to Debit Payment Details......");
                                 int rs3=stmt2.executeUpdate("INSERT INTO salarydetail(Name,Salary) VALUES('"+name+"','"+sal+"')");
-                                System.out.println(sal+"Your salary amount "+sal+" is sent to your Debit Card");
+                                System.out.println("Your salary amount "+sal+" is sent to your Debit Card");
                                 break;
                         }
                     }
